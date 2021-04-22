@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Temperature conversion</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/HTML5-CSS-Reset.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<script src = "js/script1.js" ></script>
+		<script src = "js/script2.js" ></script>
+
+</head>
+	<body>
+	<img src="img/tempConv.jpg" alt="temp conversion photo" width=25% align="right">
+	-	<h2>Temperature conversion form fahrenheit to celsius</h2>
+			<p>
+				Temperature in Fahrenheit: <input id ="tFah_id" type="text"><br>
+				<button type="button" onclick="convertC();"> Convert to Celsius </button><br>
+				Temperature in Celsius: <span id="tCel_id"></span>
+			</p>
+		<h2>Temperature conversion form celsius to fahrenheit  </h2>
+			<p>
+				Temperature in Celsius: <input id ="tCel1_id" type="text"><br>
+				<button type="button" onclick="CelToFah();"> Convert to Fahrenheit </button><br>
+				Temperature in Fahrenheit: <span id="tFah1_id"></span>
+			</p>
+	</body>
+	
+</html>

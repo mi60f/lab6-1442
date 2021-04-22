@@ -1,0 +1,46 @@
+body {
+    
+    font-family: 'Architects Daughter', cursive;
+    font-size:16px;
+    line-height: 2.5;
+    background: #eef; 
+    text-align: justify;
+
+   } 
+
+header {
+     font-family: "Merriweather", serif;
+     font-size:50px;
+     background:gray
+     background-image: url('/img/css_header.png');
+     color:red;
+    text-align: center;
+    text-transform: uppercase;
+}
+img{
+    width: 15%;
+    float: right;
+    clear: both;
+       
+}
+
+article, aside, footer, header, menu, nav, section {
+display: block;
+}
+artical,section{
+    
+    margin: 20px;
+}
+text{
+    margin: 5px;
+}
+
+images, nav, texts , aside{
+    padding: 1;
+}
+nav{
+    float: right;
+}
+article{
+    border: 3px;
+    o
